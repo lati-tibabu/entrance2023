@@ -71,7 +71,7 @@
             const middleName = document.getElementById('middleName').value.toUpperCase().substring(0, 2);
             const lastName = document.getElementById('lastName').value.toUpperCase().substring(0, 2);
 
-            const redirectURL = `https://verify.eaes.et/temporary/${firstName}${middleName}${lastName}=${registrationNumber}`;
+            const redirectURL = `https://verify.eaes.et/temporary/${firstName}${lastName}${middleName}=${registrationNumber}`;
 
             window.location.href = redirectURL;
         }
